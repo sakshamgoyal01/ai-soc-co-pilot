@@ -1,0 +1,36 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "sample-python-app",
+  "documentNamespace": "http://spdx.org/spdxdocs/sample-python-app-2025",
+  "creationInfo": {
+    "created": "2025-06-14T12:00:00Z",
+    "creators": [
+      "Tool: sbom-generator 1.0",
+      "Person: John Doe (john@example.com)"
+    ]
+  },
+  "packages": [
+    {
+      "name": "flask",
+      "SPDXID": "SPDXRef-Package-flask",
+      "versionInfo": "2.3.2",
+      "supplier": "Organization: Pallets",
+      "downloadLocation": "https://pypi.org/project/flask/2.3.2/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "name": "requests",
+      "SPDXID": "SPDXRef-Package-requests",
+      "versionInfo": "2.31.0",
+      "supplier": "Organization: Python Software Foundation",
+      "downloadLocation": "https://pypi.org/project/requests/2.31.0/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0"
+    }
+  ]
+}

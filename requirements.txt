@@ -1,0 +1,6 @@
+fastapi
+pydantic
+openai
+confluent-kafka
+kubernetes
+ansible-runner
